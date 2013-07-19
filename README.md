@@ -9,6 +9,7 @@ Features
 * Is relatively polite to somafm.com.
  * Caches intermediate data in /tmp/
  * Waits 1 second between HTTP requests.
+ * ... though it's not _that_ polite because it ignores robots.txt
 * All streams for each station are produced.
 * Streams are sorted by their titles.
 
