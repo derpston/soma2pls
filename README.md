@@ -14,6 +14,21 @@ Features
  * Use --one-stream to use just the first stream.
 * Streams are sorted by their titles.
 
+Usage
+-----
+
+```shell
+$ python soma2pls.py --help
+usage: soma2pls.py [-h] [--url URL] [--one-stream] [--fetch-delay FETCH_DELAY]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --url URL
+  --one-stream          Uses the first stream URL found for each station.
+  --fetch-delay FETCH_DELAY
+                        Seconds to wait between HTTP requests
+```
+
 Dependencies
 ------------
 
